@@ -22,13 +22,13 @@ c
 
 Where **_a_** belongs to segment **_[1, 10]_**, **_b_** to the segment **_[1, 20]_** and **_c_** to the segment **_[1, 15]_**
 The files **_file1_** and **_file2_** are similar except for the case where `a == b == c`.
-Running the _main.py_ file will generate at most `MAX_ITER` inputs. As soon as one of them gives different outputs on the two scripts (_file1_ and _file2_), it is displayed and the program finishes. If no input is found, a message _Could not find a suitable input_ is displayed instead. In this case, it will either print 3 equal numbers (e.g. _3 3 3_)[^2] or print _Could not find a suitable input_ message.
+Running the _main.py_ file will generate at most `MAX_ITER` inputs. As soon as one of them gives different outputs on the two scripts (_file1_ and _file2_), it is displayed and the program finishes. If no input is found, a message _Could not find a suitable input_ is displayed instead. In this case, it will either print 3 equal numbers (e.g. _3 3 3_)² or print _Could not find a suitable input_ message.
 
 ## How to use
 
 Modify the input to suit your problem (see input and example above), then the path to your python scripts (the one that has a correct solution¹, and the one to debug of course). You can modify the `MAX_ITER` if you want. Try to keep the numbers ranges small if no solution is found after a long time
 
 
->¹: One such program can usually be implemented very fast without taking time constraints. Or if not in a live contest, any accepted script (written by someone >else) will do the work.
+>¹: One such program can usually be implemented very fast without taking time constraints. Or if not in a live contest, any accepted script (written by someone else) will do the work.
 >
 >²: Most likely case given how small the number ranges are (i.e. at most a length of 20 for 3 numbers) compared to `MAX_ITER`
