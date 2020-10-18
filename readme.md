@@ -1,6 +1,6 @@
 # Competitive programming debugging helper
 
-This is a program that can help you debug your code, especially in competitive programming contests where time is of the essence. It basically generates random inputs according to rules you can specify, and compares your code's output with output's of a known working solution[^1].
+This is a program that can help you debug your code, especially in competitive programming contests where time is of the essence. It basically generates random inputs according to rules you can specify, and compares your code's output with output's of a known working solution¹.
 
 - Only numbers(integers) are supported for now
 - Only python scripts are supported for now
@@ -26,7 +26,9 @@ Running the _main.py_ file will generate at most `MAX_ITER` inputs. As soon as o
 
 ## How to use
 
-Modify the input to suit your problem (see input and example above), then the path to your python scripts (the one that has a correct solution [^1], and the one to debug of course). You can modify the `MAX_ITER` if you want. Try to keep the numbers ranges small if no solution is found after a long time
+Modify the input to suit your problem (see input and example above), then the path to your python scripts (the one that has a correct solution¹, and the one to debug of course). You can modify the `MAX_ITER` if you want. Try to keep the numbers ranges small if no solution is found after a long time
 
-[^1]: One such program can usually be implemented very fast without taking time constraints. Or if not in a live contest, any accepted script (written by someone else) will do the work.
-[^2]: Most likely case given how small the number ranges are (i.e. at most a length of 20 for 3 numbers) compared to `MAX_ITER`
+
+>¹: One such program can usually be implemented very fast without taking time constraints. Or if not in a live contest, any accepted script (written by someone >else) will do the work.
+>
+>²: Most likely case given how small the number ranges are (i.e. at most a length of 20 for 3 numbers) compared to `MAX_ITER`
